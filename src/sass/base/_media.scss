@@ -1,0 +1,86 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 991px) {
+  .header {
+    margin: 0 30px;
+  }
+  .promo {
+    &__wrapper {
+      padding: 91px 40px 0 0;
+    }
+  }
+  .advantage {
+    &__text {
+      width: 230px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    margin: 0 30px;
+  }
+  .promo {
+    &__wrapper {
+      padding: 91px 40px 0 0;
+    }
+  }
+  .advantage {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+    }
+    &__text {
+      width: 230px;
+    }
+  }
+  .carousel {
+    &__inner {
+      width: 500px;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .header {
+    margin: 0 10px;
+    &__phone {
+      font-size: 17px;
+    }
+    &__official {
+      margin-left: 40px;
+    }
+  }
+  .promo {
+    &__header {
+      font-size: 33px;
+    }
+    &__subheader {
+      font-size: 20px;
+    }
+    &__icons {
+      width: 360px;
+    }
+  }
+  .advantage {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+    }
+    &__item {
+      &:nth-child(2) {
+        margin-top: 30px;
+      }
+      &:nth-child(3) {
+        margin-top: 30px;
+      }
+    }
+  }
+  .carousel {
+    &__inner {
+      width: 500px;
+    }
+  }
+}
